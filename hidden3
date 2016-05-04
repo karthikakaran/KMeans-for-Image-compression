@@ -1,0 +1,167 @@
+L - 0.3, M - 0.2, N - 500, H - 3 
+=== Summary ===
+
+Correctly Classified Instances         454               94.9791 %
+Incorrectly Classified Instances        24                5.0209 %
+Kappa statistic                          0.8785
+Mean absolute error                      0.0584
+Root mean squared error                  0.219 
+Relative absolute error                 14.8309 %
+Root relative squared error             49.2038 %
+Coverage of cases (0.95 level)          95.1883 %
+Mean rel. region size (0.95 level)      50.3138 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.940    0.023    0.991      0.940    0.965      0.882    0.978     0.992     ham
+                 0.977    0.060    0.858      0.977    0.914      0.882    0.977     0.896     spam
+Weighted Avg.    0.950    0.033    0.955      0.950    0.951      0.882    0.978     0.965     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 327  21 |   a = ham
+   3 127 |   b = spam
+
+L - 0.9
+=== Summary ===
+
+Correctly Classified Instances         348               72.8033 %
+Incorrectly Classified Instances       130               27.1967 %
+Kappa statistic                          0     
+Mean absolute error                      0.3567
+Root mean squared error                  0.4528
+Relative absolute error                 90.6238 %
+Root relative squared error            101.748  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.7908 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.728      1.000    0.843      0.000    0.875     0.936     ham
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.875     0.800     spam
+Weighted Avg.    0.728    0.728    0.530      0.728    0.613      0.000    0.875     0.899     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 348   0 |   a = ham
+ 130   0 |   b = spam
+
+L - 0.2 M - 0.3
+
+=== Summary ===
+
+Correctly Classified Instances         455               95.1883 %
+Incorrectly Classified Instances        23                4.8117 %
+Kappa statistic                          0.8833
+Mean absolute error                      0.0573
+Root mean squared error                  0.2168
+Relative absolute error                 14.5661 %
+Root relative squared error             48.724  %
+Coverage of cases (0.95 level)          95.1883 %
+Mean rel. region size (0.95 level)      50.4184 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.943    0.023    0.991      0.943    0.966      0.887    0.980     0.993     ham
+                 0.977    0.057    0.864      0.977    0.917      0.887    0.980     0.935     spam
+Weighted Avg.    0.952    0.032    0.956      0.952    0.953      0.887    0.980     0.977     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 328  20 |   a = ham
+   3 127 |   b = spam
+
+L - 0.2 M - 0.3 N - 800
+=== Summary ===
+
+Correctly Classified Instances         455               95.1883 %
+Incorrectly Classified Instances        23                4.8117 %
+Kappa statistic                          0.8833
+Mean absolute error                      0.0564
+Root mean squared error                  0.2174
+Relative absolute error                 14.3398 %
+Root relative squared error             48.862  %
+Coverage of cases (0.95 level)          95.1883 %
+Mean rel. region size (0.95 level)      50.4184 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.943    0.023    0.991      0.943    0.966      0.887    0.980     0.993     ham
+                 0.977    0.057    0.864      0.977    0.917      0.887    0.980     0.935     spam
+Weighted Avg.    0.952    0.032    0.956      0.952    0.953      0.887    0.980     0.977     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 328  20 |   a = ham
+   3 127 |   b = spam
+
+L - 0.2 M - 0.3 N - 150
+
+=== Summary ===
+
+Correctly Classified Instances         455               95.1883 %
+Incorrectly Classified Instances        23                4.8117 %
+Kappa statistic                          0.8833
+Mean absolute error                      0.0647
+Root mean squared error                  0.2143
+Relative absolute error                 16.4431 %
+Root relative squared error             48.1469 %
+Coverage of cases (0.95 level)          95.6067 %
+Mean rel. region size (0.95 level)      50.8368 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.943    0.023    0.991      0.943    0.966      0.887    0.980     0.993     ham
+                 0.977    0.057    0.864      0.977    0.917      0.887    0.980     0.935     spam
+Weighted Avg.    0.952    0.032    0.956      0.952    0.953      0.887    0.980     0.977     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 328  20 |   a = ham
+   3 127 |   b = spam
+
+M - 0.6 L - 0.2 N - 150
+
+=== Summary ===
+
+Correctly Classified Instances         395               82.636  %
+Incorrectly Classified Instances        83               17.364  %
+Kappa statistic                          0.6346
+Mean absolute error                      0.2241
+Root mean squared error                  0.3297
+Relative absolute error                 56.9325 %
+Root relative squared error             74.0891 %
+Coverage of cases (0.95 level)          99.7908 %
+Mean rel. region size (0.95 level)      72.5941 %
+Total Number of Instances              478     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.761    0.000    1.000      0.761    0.865      0.682    0.956     0.979     ham
+                 1.000    0.239    0.610      1.000    0.758      0.682    0.952     0.798     spam
+Weighted Avg.    0.826    0.065    0.894      0.826    0.836      0.682    0.955     0.930     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 265  83 |   a = ham
+   0 130 |   b = spam
+
+
+
